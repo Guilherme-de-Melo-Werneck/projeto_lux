@@ -98,52 +98,51 @@
 </head>
 <body>
   <!-- HEADER -->
-    <header>
+  <header>
     <div class="container nav">
-        <a href="#inicio" class="brand" aria-label="Ir para o início">
+      <a href="#inicio" class="brand" aria-label="Ir para o início">
         <img src="img/logo.png" class="logo-img" alt="Logo Lux Elétrica e Iluminação">
         <span>Lux Elétrica e Iluminação</span>
-        </a>
-        <button class="mobile-toggle" aria-label="Abrir menu" onclick="document.querySelector('.menu').classList.toggle('open')">☰</button>
-        <nav class="menu" aria-label="principal">
+      </a>
+      <button class="mobile-toggle" aria-label="Abrir menu" onclick="document.querySelector('.menu').classList.toggle('open')">☰</button>
+      <nav class="menu" aria-label="principal">
         <!-- Agora o link Produtos baixa o PDF -->
         <a href="img/catalogo.pdf" download>Produtos</a>
         <a href="#servicos">Categorias</a>
         <a href="#projetos">Ambientes</a>
         <a href="#depoimentos">Avaliações</a>
-        <a href="#contato">Contato</a>
+        <a href="#contato">Localização</a>
         <a class="cta" href="https://wa.me/552432123455?text=Olá%20Lux!%20Quero%20saber%20sobre%20um%20produto." target="_blank" rel="noopener">Falar no WhatsApp</a>
-        </nav>
+      </nav>
     </div>
-    </header>
+  </header>
 
-    <!-- HERO -->
-    <section id="inicio" class="container hero">
+  <!-- HERO -->
+  <section id="inicio" class="container hero">
     <div>
-        <span class="tagline">🛒 Loja de materiais elétricos, iluminação, torneiras e ferramentas</span>
-        <h1>Iluminação bonita e materiais elétricos de qualidade para sua casa ou comércio.</h1>
-        <p>Atendimento rápido e especializado, com opções das principais marcas. Tire suas dúvidas e peça cotação pelo WhatsApp.</p>
-        <div class="actions">
+      <span class="tagline">🛒 Loja de materiais elétricos, iluminação, torneiras e ferramentas</span>
+      <h1>Iluminação bonita e materiais elétricos de qualidade para sua casa ou comércio.</h1>
+      <p>Atendimento rápido e especializado, com opções das principais marcas. Tire suas dúvidas e peça cotação pelo WhatsApp.</p>
+      <div class="actions">
         <!-- Botão também baixa o PDF -->
         <a class="btn primary" href="img/catalogo.pdf" download>Ver produtos (baixar catálogo)</a>
         <a class="btn" href="https://wa.me/552432123455?text=Olá%20Lux!%20Quero%20ajuda%20para%20escolher%20um%20produto." target="_blank" rel="noopener">WhatsApp</a>
-        </div>
+      </div>
     </div>
     <div>
-        <div class="hero-card">
+      <div class="hero-card">
         <!-- Foto da frente da loja -->
         <img src="img/loja.jpg" class="hero-photo" alt="Fachada da Lux Elétrica e Iluminação">
         <div class="chip">🏪 Loja física • 📍 Av. Paulo de Frontin, 359 – Aterrado, Volta Redonda/RJ</div>
         <div class="hero-grid">
-            <div class="card"><div class="icon">💡</div><h3>Lâmpadas & LED</h3><small>Economia e durabilidade.</small></div>
-            <div class="card"><div class="icon">✨</div><h3>Pendentes & Spots</h3><small>Decoração que valoriza o ambiente.</small></div>
-            <div class="card"><div class="icon">🧰</div><h3>Ferramentas</h3><small>Para pequenas instalações e reparos.</small></div>
-            <div class="card"><div class="icon">🚿</div><h3>Torneiras</h3><small>Modelos modernos e práticos.</small></div>
+          <div class="card"><div class="icon">💡</div><h3>Lâmpadas & LED</h3><small>Economia e durabilidade.</small></div>
+          <div class="card"><div class="icon">✨</div><h3>Pendentes & Spots</h3><small>Decoração que valoriza o ambiente.</small></div>
+          <div class="card"><div class="icon">🧰</div><h3>Ferramentas</h3><small>Para pequenas instalações e reparos.</small></div>
+          <div class="card"><div class="icon">🚿</div><h3>Torneiras</h3><small>Modelos modernos e práticos.</small></div>
         </div>
-        </div>
+      </div>
     </div>
-    </section>
-
+  </section>
 
   <!-- BENEFÍCIOS -->
   <section>
@@ -278,41 +277,25 @@
       </div>
     </div>
   </section>
-
-  <!-- CONTATO -->
+  <!-- CONTATO (apenas mapa) -->
   <section id="contato">
     <div class="container">
       <div class="section-title">
-        <h2>Contato</h2>
-        <p>Fale com a Lux para dúvidas, cotações e disponibilidade.</p>
+        <h2>Onde estamos</h2>
+        <p>Visite nossa loja física em Volta Redonda/RJ.</p>
       </div>
-      <div class="grid cols-3">
-        <div class="card" style="grid-column:span 2;">
-          <form onsubmit="event.preventDefault(); alert('Mensagem enviada! Em breve retornaremos.'); this.reset();">
-            <div class="grid" style="grid-template-columns:1fr 1fr; gap:12px;">
-              <input required placeholder="Nome" />
-              <input required type="tel" placeholder="Telefone/WhatsApp" />
-            </div>
-            <input required type="email" placeholder="Email" />
-            <textarea required placeholder="Qual produto você procura?"></textarea>
-            <button class="btn primary" type="submit">Enviar</button>
-          </form>
-        </div>
-        <div class="card">
-          <h3>Informações</h3>
-          <p class="hint">
-            📞 (24) 3212-3455<br>
-            ✉️ contato@luxeletricaeiluminacao.com.br<br>
-            📍 Av. Paulo de Frontin, 359 – Aterrado, Volta Redonda/RJ, 27215-580
-          </p>
-          <div class="spacer"></div>
-          <a class="btn" href="https://www.instagram.com/luxeletricaeiluminacao/" target="_blank" rel="noopener">Instagram</a>
-          <div class="spacer"></div>
-          <iframe title="Mapa" style="border:0;width:100%;height:180px;border-radius:12px" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d0!2d-44.104!3d-22.512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sBR!4v0000000000"></iframe>
-        </div>
+      <div class="card" style="padding:0; overflow:hidden; border-radius:16px; border:1px solid var(--stroke)">
+        <iframe title="Mapa da Lux Elétrica e Iluminação"
+          style="border:0;width:100%;height:420px;display:block"
+          loading="lazy" allowfullscreen
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.301077646628!2d-44.09638872475549!3d-22.50880018520925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9ea313d9bf1903%3A0xce951c15e3cbb082!2sLUX%20EL%C3%89TRICA%20%26%20ILUMINA%C3%87%C3%83O!5e0!3m2!1spt-BR!2sbr!4v1724098220000!5m2!1spt-BR!2sbr">
+        </iframe>
       </div>
+      <div class="spacer"></div>
+      <a class="btn primary" href="https://wa.me/552432123455?text=Olá%20Lux!%20Quero%20saber%20sobre%20um%20produto." target="_blank" rel="noopener">Falar no WhatsApp</a>
     </div>
   </section>
+
 
   <!-- FOOTER -->
   <footer>
@@ -344,6 +327,7 @@
   </script>
 </body>
 </html>
+
 
 
 <!-- 
